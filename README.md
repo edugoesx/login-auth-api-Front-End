@@ -1,27 +1,35 @@
-# LoginPage
+# 💻 Auth Client - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Interface frontend desenvolvida em Angular para consumir a API de autenticação JWT. O projeto foca na experiência do usuário para processos de Login e Cadastro, gerenciando o estado de autenticação e a persistência do token.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* **Angular** (Framework Frontend)
+* **TypeScript**
+* **HTML5 & CSS3/SCSS**
+* **RxJS** (Programação reativa)
 
-## Code scaffolding
+## ⚙️ Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* **Tela de Login:** Formulário reativo com validação de campos.
+* **Tela de Cadastro:** Interface para registro de novos usuários.
+* **Integração com API:** Consumo dos endpoints de autenticação do backend Spring Boot.
+* **Gerenciamento de Token:** Armazenamento seguro do JWT no LocalStorage/SessionStorage.
+* **Feedback Visual:** Tratamento de erros de login e sucesso no cadastro.
 
-## Build
+## 🛠️ Como executar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Certifique-se de ter o **Node.js** e o **Angular CLI** instalados.
+  
+2. Clone este repositório:
+   git clone https://github.com/edugoesx/login-auth-api-Front-End
 
-## Running unit tests
+3. Instale as dependências:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install
 
-## Running end-to-end tests
+4. Execute o servidor de desenvolvimento:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+npm start
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Acesse a aplicação em http://localhost:4200.
